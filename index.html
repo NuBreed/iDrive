@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>iDRive</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="container nav-container">
+            <div class="nav-header">
+                <div class="nav-logo">
+                    <img src="./Download.png" alt="" class="logo-img" />
+                </div>
+                <div class="nav-btn">
+                    <button>
+              <i class="fas fa-bars"></i><i class="far fa-times-circle"></i>
+            </button>
+                </div>
+            </div>
+            <div class="navbar">
+
+                <ul class="navlinks">
+                    <li class="nav-link">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="service.html">
+                            Services
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logins">
+                <button class="btn signin-btn">
+            <a href="#"> Sign-up </a>
+          </button>
+                <button class="btn login-btn">
+            <a href="#"> Login </a>
+          </button>
+            </div>
+        </nav>
+    </header>
+    <main class="hero">
+        <div class="container">
+            <div class="hero-left">
+                <h2 class="hero-title">idrive</h2>
+                <p class="hero-text">let us drive you around</p>
+            </div>
+            <div class="hero-rigth">
+                <img src="https://images.pexels.com/photos/9881072/pexels-photo-9881072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="hero-img" />
+                <div>
+                    <h3>social media</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="booking">
+        <h4 class="section-title">Book a trip</h4>
+        <div class="container booking-center">
+            <form class="Current-location">
+                <div>
+                    <label for="name" class="">start</label>
+                    <i class="fas fa-map-marker-alt">                  
+                        </i >
+                        <input type="text" id="name" class="start" />
+          </div>
+          <div class="">
+            <label for="deji">destination</label>
+            <i class="fas fa-map-pin"></i><input type="text" id="deji" class="destination" />
+                </div>
+                <button class="book-btn btn">
+             Book
+          </button>
+            </form>
+
+            <div class="user-card">
+                <a href="users.html" target="_blank">
+                    <div class="user-figure">
+                        <img src="
+                    https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                        <span class="name">morins </span>
+                        <span class="distance">400m away</span>
+                        <span class="time"> in 30 min </span>
+                        </span>
+                        <div>
+                            <i class="fas fa-circle one"></i>
+                            <i class="fas fa-circle two"></i>
+                            <i class="fas fa-circle three"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section class="review-section" id="review-section">
+        <div class="container">
+            <h3 class="section-title">Reviews</h3>
+            <div class=" review-center">
+                <div class="review-card">
+                    <div class="card-center">
+                        <img src="https://images.pexels.com/photos/8555095/pexels-photo-8555095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="review-image" class="review-img img" />
+                        <div class="user-text">
+                            <div class="reviewer-wrapper">
+                                <p class="reviewer"> Joe Bines</p>
+                                <span>Regular</span>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Sunt rerum molestiae perferendis aut cum facere pariatur,<br> odio qui deserunt ipsa? Et officiis corrupti sapiente facilis ipsum culpa architecto nihil nesciunt.</p>
+                            </div>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-center">
+                @2020 NuBreedCodes. Germany. All rights reserved
+            </p>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
