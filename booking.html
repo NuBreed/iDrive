@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="container nav-container">
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo">
+                    <img src="./media/logo.png" alt="" class="logo-img" />
+                </a>
+                <div class="nav-btn">
+                    <button>
+              <i class="fas fa-bars"></i><i class="far fa-times-circle"></i>
+            </button>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="navbar-box">
+                    <ul class="navlinks">
+                        <li class="nav-link">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="booking.html"> Services </a>
+                        </li>
+                    </ul>
+                    <div class="logins">
+                        <a class="btn sign-up-btn nav-link" href="login.html">
+                Sign-up
+              </a>
+                        <a class="btn nav-link" href="login.html"> login </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="booking">
+        <h4 class="section-title">Book a trip</h4>
+        <div class="container booking-center">
+            <form class="current-location">
+                <div class="form-section">
+                    <label for="name" class="">start</label>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" id="name" class="start" />
+                    </div>
+                </div>
+                <div class="form-section">
+                    <label for="deji">destination</label>
+                    <div>
+                        <i class="fas fa-map-location"></i>
+                        <input type="text" id="deji" class="destination" />
+                    </div>
+                </div>
+                <button class="book-btn btn">Book</button>
+            </form>
+            <div class="driver-details">
+                <div class="next-cars"></div>
+                <div class="map-card"></div>
+            </div>
+        </div>
+    </section>
+    <section class="users">
+        <h3 class="review-title section-title">idrivers nearby</h3>
+        <div class="container active-users">
+            <div class="user-card">
+                <div class="user-center">
+                    <span class="user-name">morins </span>
+                    <img src="
+                    https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="user-img img" />
+                </div>
+                <p class="user-distance">400m away</p>
+                <button class="btn booking-now">Book me</button>
+            </div>
+            <div class="user-card">
+                <div class="user-center">
+                    <span class="user-name">sabina </span>
+                    <img src="
+            https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083379_1280.jpg" alt="" class="user-img img" />
+                </div>
+                <p class="user-distance">750m away</p>
+                <button class="btn booking-now">Book me</button>
+            </div>
+            <div class="user-card">
+                <div class="user-center">
+                    <span class="user-name">Joe </span>
+                    <img src="https://cdn.pixabay.com/photo/2017/04/01/21/06/portrait-2194457_1280.jpg" alt="" class="user-img img" />
+                </div>
+                <p class="user-distance">1000m away</p>
+
+                <button class="btn booking-now">Book me</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <hr />
+        <div class="container">
+            <p class="footer-center">
+                NuBreedCodes &copy;Hamburg, Germany <br /> All rights reserved
+            </p>
+        </div>
+    </footer>
+    <script src="./functionalities/app.js "></script>
+    <script src="./functionalities/navbar.js"></script>
+</body>
+
+</html>

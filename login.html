@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="container nav-container">
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo">
+                    <img src="./media/logo.svg" alt="" class="logo-img" />
+                </a>
+                <div class="nav-btn">
+                    <button>
+              <i class="fas fa-bars"></i><i class="far fa-times-circle"></i>
+            </button>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="navbar-box">
+                    <ul class="navlinks">
+                        <li class="nav-link">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="booking.html"> Services </a>
+                        </li>
+                    </ul>
+                    <div class="logins">
+                        <a class="btn sign-up-btn nav-link" href="login.html">
+                Sign-up
+              </a>
+                        <a class="btn nav-link" href="login.html"> login </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section login">
+        <h2 class="section-title">Personal Information</h2>
+        <div class="section-center contact-center">
+            <form action="" class="contact-form">
+                <h4 class="login-title">Login/Register</h2>
+                    <div class="login-box">
+                        <label for="name">name</label>
+                        <input type="text" id="name" required/>
+                    </div>
+                    <div class="login-box">
+                        <label for="email">email</label>
+                        <input type="text" id="email" placeholder="joewilliams@google.com" required/>
+                    </div>
+                    <button type="submit" class="btn contact-btn">Confirm</button>
+            </form>
+            <div class="login-left">
+                <img src="https://cdn.pixabay.com/photo/2021/11/04/16/19/travel-6768660_1280.png" alt="" class="img" />
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <hr />
+        <div class="container">
+            <p class="footer-center">
+                NuBreedCodes &copy;Hamburg, Germany <br /> All rights reserved
+            </p>
+        </div>
+    </footer>
+    <script src="./functionalities/app.js "></script>
+    <script src="./functionalities/navbar.js"></script>
+</body>
+
+</html>
