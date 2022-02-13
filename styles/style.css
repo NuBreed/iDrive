@@ -249,7 +249,7 @@ p {
     font-variant: small-caps;
     border-radius: 15px;
     transition: var(--transition);
-    box-shadow: -2px -2px 15px var(--clr-primary-7), -4px -5px 10px black;
+    box-shadow: 2px 2px 15px var(--clr-primary-7);
 }
 
 .nav-link a {
